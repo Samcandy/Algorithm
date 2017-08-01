@@ -1,3 +1,4 @@
+#python2.x environment
 def sort(data):
     for i in xrange(len(data)-1):
         for j in xrange(len(data)-i-1):
