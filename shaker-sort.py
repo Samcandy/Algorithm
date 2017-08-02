@@ -12,7 +12,7 @@ def sharker_sort(lst):
         top = top-1
         print(top)
         for j in range(top,bottom,-1):
-            if lst[j]  <lst[j-1]:
+            if lst[j] < lst[j-1]:
                 lst[j],lst[j-1]=lst[j-1],lst[j]
         bottom += 1
     return lst
